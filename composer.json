@@ -1,0 +1,23 @@
+{
+  "name"       : "CrystalSource/CrystalCache",
+  "description": "PHP cache connector",
+  "type"       : "library",
+  "license"    : "GPL-3.0",
+  "authors"    : [
+    {
+      "name" : "Mike Bertram",
+      "email": "contact@crystalsource.de"
+    }
+  ],
+  "require-dev": {
+    "phpspec/phpspec": "2.5.*"
+  },
+  "autoload"   : {
+    "psr-0": {
+      "tests": "tests/"
+    },
+    "psr-4": {
+      "CrystalSource\\CrystalCache\\": "src/"
+    }
+  }
+}
