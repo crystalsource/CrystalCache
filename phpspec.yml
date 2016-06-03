@@ -1,7 +1,7 @@
 suites:
   crystalcache:
-    namespace: CrystalSource\CrystalCache
-    psr4_prefix: CrystalSource
-    spec_prefix:
+    namespace: NEXUS\Feature
+    psr4_prefix: NEXUS
+    spec_prefix: unit
     src_path: %paths.config%/src
     spec_path: %paths.config%/tests
