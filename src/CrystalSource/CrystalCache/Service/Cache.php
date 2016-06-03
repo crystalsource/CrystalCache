@@ -2,6 +2,6 @@
 
 namespace CrystalSource\CrystalCache\Service;
 
-class Cache
+class Cache implements CacheInterface
 {
 }
